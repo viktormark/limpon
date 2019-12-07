@@ -1,5 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    
+}
+a {
+    text-decoration: none;
 }
 
 h1{
@@ -9,5 +13,20 @@ h1{
 }
 
 .nav{
-    
+    font-size: 12px;
+     font-weight: 700;
+     color: #6e7ea9;
+     text-transform: uppercase;
+}
+
+.btn-free {
+ color: white;
+ font-weight: 400;
+ background-color: #1085e4;
+
+}
+
+.grid h2 {
+    color: #192b59;
+    font-size: 40px;
 }
