@@ -1,6 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    color: #7581a1;
+    font-size: 16px;
+    line-height: 26px;
 }
 a {
     text-decoration: none;
@@ -29,4 +31,25 @@ h1{
 .grid h2 {
     color: #192b59;
     font-size: 40px;
+    font-weight: 700;
+   
+}
+.grid h2 span{
+    color: #1085e4;
+    font-size: 14px;
+    display: block;
+
+}
+
+.grid-item h3 {
+    color: #192b59;   
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+}
+
+.grid-item a{
+ color: #1085e4;
+font-weight: 600;
+font-size: 14px;
 }
