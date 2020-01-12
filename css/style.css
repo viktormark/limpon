@@ -133,3 +133,21 @@ margin-left: 16px;
 font-weight: 600;
 font-size: 14px;
 }
+
+.list-stat{
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.list-stat>li{
+    color: #1085E4;
+
+}
+
+.list-stat>li>span{
+
+display: block;
+
+}
