@@ -13,20 +13,36 @@ a {
 h1{
     font-weight: 600;
     color: #192b59;
-    font-size: 80px;  
+    font-size: 80px; 
+    max-width: 600px;
+    letter-spacing: -2.5px;
+    line-height: 1.1;
+    margin-bottom: 65px; 
 }
 
 .nav{
-    font-size: 12px;
+     font-size: 12px;
      font-weight: 700;
-     color: #6e7ea9;
      text-transform: uppercase;
      list-style-type: none;
      margin:0px;
      padding: 0px;
+     display: flex;
 
 
 }
+
+.nav>li{
+padding:0 20px ;
+letter-spacing: 2px;
+}
+
+.nav-item{
+    color: #6e7ea9;
+}
+
+
+
 .btn-primary{
     color: #ffffff;
     background-color: #1085e4;
