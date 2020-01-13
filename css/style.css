@@ -24,9 +24,39 @@ h1{
    
 }
 
+.title-h2{
+    font-size: 50px;
+    color: rgba(25, 43, 89, 255);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing:-1.5px ;
+   
+    
+}
+
+
+.title-h2 span{
+ display:block;
+ font-size: 16px;
+color: rgba(16, 133, 228, 255);
+font-weight: 800;
+margin-bottom: 50px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:14px ;
+
+}
+
+.page-stat .title-h2 {
+    
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+}
+
 .wrap{
     max-width:1110px ;
-    border: 1px solid red;
+    
     margin: 0px auto;
 }
 
@@ -148,7 +178,7 @@ font-size: 14px;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    
+    margin-top: 76px;
 
 }
 
@@ -169,4 +199,9 @@ color: #bacbdc;
 font-size: 60px;
 margin-bottom: 23px;
 letter-spacing: 0px;
+}
+
+.page-stat{
+background-color: #edf6ff;
+
 }
