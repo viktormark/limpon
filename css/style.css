@@ -236,9 +236,37 @@ margin-top: 36px;
 margin-bottom: -7px;
 }
 
+.box-price-item h3 {
+    font-size: 70px;
+    font-weight: bold;
+   color: #000958;
+   letter-spacing: -1px;
+   margin-top: 0px;
+   margin-bottom: 15px;
+    }
+
+.box-price-item h3 span{
+    font-size: 20px;
+}
+
 .box-price-item{
     background-color: #f5faff;
 }
+.box-price-item h3:first-child {
+    margin-bottom: 35px;
+}
+
+.box-price-item h3 span:first-child {
+    color: #000958;
+}
+
+.box-price-item h3 span:last-child {
+    color: #7b8ab2;
+}
+
+
+
+
 
 .box-price{
 display: flex;
@@ -256,6 +284,8 @@ padding-left: 0px;
     background-color: #192b59;
     }
 
+
+   
 .page-stat, .page-screen{
 background-color: #edf6ff;
 
