@@ -90,6 +90,21 @@ letter-spacing: 3.5px;
     margin: 0px auto;
 }
 
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.logo{
+    background-image: url(../img/2-layers.png);
+    width: 181px;
+    height: 49px;
+    display: block;
+}
+
+
 .nav{
      font-size: 12px;
      font-weight: 700;
