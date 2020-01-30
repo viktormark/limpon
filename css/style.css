@@ -20,7 +20,7 @@ h1{
     line-height: 1.1;
     margin-bottom: 65px; 
     padding-left: 0px;
-    border: 1px solid forestgreen;
+    
    
 }
 
@@ -94,7 +94,9 @@ letter-spacing: 3.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 53px;
+    padding-top: 53px;
+    margin-bottom: 305px;
+    padding-left: 54px;
 }
 
 .logo{
@@ -102,6 +104,7 @@ letter-spacing: 3.5px;
     width: 181px;
     height: 49px;
     display: block;
+    margin-left: -23px;
 }
 
 
@@ -119,11 +122,12 @@ letter-spacing: 3.5px;
 
 .nav>li{
 padding:0 20px ;
-letter-spacing: 2px;
+
 }
 
 .nav-item{
     color: #6e7ea9;
+    letter-spacing: 2px;
 }
 
 
@@ -344,6 +348,14 @@ font-size: 14px;
 
 
    
+
+.page-header{
+    background-image: url(../img/Slice_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 330px;
+}
+
 .page-stat, .page-screen{
 background-color: #edf6ff;
 
