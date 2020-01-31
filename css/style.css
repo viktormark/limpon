@@ -130,7 +130,13 @@ padding:0 20px ;
     letter-spacing: 2px;
 }
 
-
+.screem-img{
+    display: block;
+    background-image: url(../img/bg@1X.png);
+    background-repeat: no-repeat;
+    width:895px ;
+    height: 740px;
+}
 
 .btn-primary{
     color: #ffffff;
@@ -354,6 +360,49 @@ font-size: 14px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 330px;
+}
+
+.list-company{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+max-width: 1110px;
+margin: 0 auto;
+align-items: center;
+}
+
+.list-company-item{
+    display: block;
+}
+
+.company-one{
+    background-image: url(../img/bg_1.png);
+    width: 198px;
+    height: 58px;
+}
+.company-two{
+    background-image: url(../img/bg_2.png);
+    width: 200px;
+    height: 69px;
+}
+.company-three{
+    background-image: url(../img/bg_3.png);
+    width: 201px;
+    height: 47px;
+}
+.company-four{
+    background-image: url(../img/bg_4.png);
+    width: 200px;
+    height: 69px;
+}
+
+.page-company{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0 99px;
 }
 
 .page-stat, .page-screen{
