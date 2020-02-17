@@ -130,13 +130,7 @@ padding:0 20px ;
     letter-spacing: 2px;
 }
 
-.screem-img{
-    display: block;
-    background-image: url(../img/bg@1X.png);
-    background-repeat: no-repeat;
-    width:895px ;
-    height: 740px;
-}
+
 
 .btn-primary{
     color: #ffffff;
@@ -352,14 +346,25 @@ font-size: 14px;
     background-color: #192b59;
     }
 
-
-   
+   .screem-img {
+        display: block;
+        background-image: url(../img/bg@1X.png);
+        background-repeat: no-repeat;
+        width:895px ;
+        height: 740px;
+        position: absolute;
+        right:-21px;
+        top: 189px; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        } 
+    
 
 .page-header{
     background-image: url(../img/Slice_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 330px;
+    padding-bottom:  330px ;
+    position: relative; 
 }
 
 .list-company{
