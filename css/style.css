@@ -400,16 +400,27 @@ position: relative;
 
 }
 
+.box-subs-child{
+
+    flex-basis: 49%;
+}
+
 .box-subs-user input{
 border: 2px solid #3f5cb1;
-border-radius: 30px;
+border-radius: 45px;
 background-color:transparent ;
-padding: 20px 15px;
+padding: 25px 230px 25px 37px;
 display: block;
 width: 100%;
 box-sizing: border-box;
+font-size: 14px;
+color: #fff;
 }
 
+
+.box-subs-user input:focus, .box-subs-user .btn-primary{
+    outline: none;
+}
 
 .box-subs-user input::-webkit-input-placeholder {color:#b1c3ee;}
 .box-subs-user input::-moz-placeholder          {color:#b1c3ee;}/* Firefox 19+ */
@@ -418,6 +429,10 @@ box-sizing: border-box;
 
 .box-subs-user .btn-primary{
     position: absolute;
+    top: 9px;
+    right: 8px;
+    padding: 17px 50px;
+   
 }
 
 
