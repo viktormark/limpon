@@ -221,6 +221,7 @@ margin-left: 16px;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -0.6px;
+    margin-bottom:18px ;
 }
 
 .grid-item a{
@@ -228,6 +229,55 @@ margin-left: 16px;
 font-weight: 600;
 font-size: 14px;
 }
+
+.grid-item {
+    text-align: center;
+     box-shadow:0 0 5px #f4f4f4 ;
+}
+
+
+.grid-icon{
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto 36px;
+
+}
+
+.grid-icon-1{
+background-image: url(../img/icon1.png);
+width: 54px;
+height: 71px;
+}
+.grid-icon-2{
+    background-image: url(../img/icon2.png);
+    width: 54px;
+    height: 70px;
+}
+
+.grid-icon-3{
+    background-image: url(../img/icon3.png);
+    width: 73px;
+    height: 70px;
+}
+
+.grid-icon-4{
+    background-image: url(../img/icon4.png);
+    width: 70px;
+    height: 70px;
+}
+.grid-icon-5{
+    background-image: url(../img/icon5.png);
+    width: 70px;
+    height: 70px;
+}
+
+.grid-icon-6{
+    background-image: url(../img/icon6.png);
+    width: 74px;
+    height: 70px;
+}
+
+
 
 .list-stat{
     display: flex;
