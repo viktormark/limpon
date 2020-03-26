@@ -224,6 +224,7 @@ margin-left: 16px;
 
 .grid-item-1{
     grid-area: b;
+    border: 2px solid red;
 }
 
 .grid-item-2{
