@@ -320,7 +320,7 @@ height: 71px;
 
 .grid-icon-3{
     background-image: url(../img/icon3.png);
-    background-size:  73 70px;
+    background-size:  73px 70px;
    
 }
 
@@ -341,7 +341,7 @@ height: 71px;
     
 }
 
-.page-soft-icon{
+.settings-icon{
 
 background-image: url(../img/icon.png);
 display: block;
@@ -352,13 +352,16 @@ background-position: -15px 0;
 
 }
 
-.page-soft .title-h2{
-    max-width:766px ;
+.page-soft .title-h2 ,.page-analytics .title-h2{
+    max-width:560px ;
     margin-top: 12px;
      margin-bottom: 26px;
 
 }
 
+.page-analytics-text{
+    margin-bottom: 54px;
+}
 
 .page-soft{
     padding: 109px 0 156px 0;
@@ -408,6 +411,52 @@ overflow-y: scroll;
 .page-soft-flex>div{
     flex-basis: 55%;
 }
+
+.page-app-text{
+font-size: 16px; 
+font-weight: 700; 
+text-transform: uppercase;
+color:#c4d2dd;
+margin-top:26px ;
+letter-spacing: 3.5px;
+margin-bottom:20px ;
+}
+
+.page-app-list{
+padding: 0;
+list-style-type: none;
+margin-left: -7px;
+}
+
+.page-app-list>li{ 
+   display: inline-block;
+ }
+
+.page-app-list>li>a{ 
+   background-image: url(../img/CompositeLayer.png); 
+   display:block;
+   width:185px;  
+   height:78px;
+   background-repeat: no-repeat;
+}
+.page-app-list>li>a.page-app-android{
+    background-position: 0 0;
+
+}
+
+.page-app-list>li>a.page-app-ios{
+    background-position: -190px 0;
+
+}
+
+.content-app{
+    width: 55%;
+}
+
+.content-app .title-h2{
+    margin-bottom: 36px;
+}
+
 
 .list-stat{
     display: flex;
@@ -608,13 +657,18 @@ color: #fff;
 .box-subs-user input:-ms-input-placeholder      {color:#b1c3ee;}
 
 
-::-webkit-scrollbar { width: 13px; height: 0px;}
-::-webkit-scrollbar-button {  background-color:  rgb(70, 103, 250); }
-::-webkit-scrollbar-track {  background-color:  rgb(70, 103, 250);}
-::-webkit-scrollbar-track-piece { background-color: #eae8fc;}
-::-webkit-scrollbar-thumb { height: 40px; background-color:  rgb(70, 103, 250); border-radius: 10px;}
-::-webkit-scrollbar-corner { background-color:  rgb(70, 103, 250);}}
-::-webkit-resizer { background-color:  rgb(70, 103, 250);}
+
+.page-soft-list::-webkit-scrollbar { width: 5px; height: 0px;}
+.page-soft-list::-webkit-scrollbar-button {  background-color:#1085e4; }
+.page-soft-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+.page-soft-list::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 10px;}
+
+
+::-webkit-scrollbar { width: 7px; height: 0px;}
+::-webkit-scrollbar-button {  background-color:#1085e4; }
+::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 13px;}
+
 
 .box-subs-user .btn-primary{
     position: absolute;
@@ -690,5 +744,33 @@ background: -o-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 
 background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
 background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
+}
+
+.page-app{
+    padding: 69px 0 82px 0;
+}
+
+.page-app .wrap{
+    
+    position: relative;
+}
+
+
+.video-app{
+    position: absolute;
+    top:-61px;
+    right:-172px;
+}
+
+.page-analytics{
+    background-image: url(../img/dd.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.flex-analytics{
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
