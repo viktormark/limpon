@@ -721,11 +721,17 @@ background-color: #edf6ff;
     padding: 118px 0px 95px 0px;
 }
 
-
+.box-price .btn-primary{
+    padding: 20px 60px;
+}
 
 .page-plan , .page-screen{
    
    text-align: center;
+}
+
+.page-plan{
+    padding:81px 0 121px 0 ;
 }
 
 .page-screen{
@@ -896,7 +902,7 @@ margin-top: 140px;
    flex-basis: 31.5%;
    box-shadow:0 5px 6px #f4f4f4;
    position: relative;
-   padding: 193px 0 0 0;
+   padding: 193px 0 42px 0;
 
 }
 
@@ -938,4 +944,13 @@ background-image: url(../img/btn-more.png);
 display: block;
 width: 50px;
 height: 50px;
+background-repeat: no-repeat;
+border: none;
+margin: 0 auto;
+border-radius: 50%;
 }
+
+.box-team-item .btn-more:focus{
+    outline: none;
+}
+
