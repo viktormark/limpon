@@ -23,6 +23,7 @@
                 <li><a href="" class="nav-item">team</a></li>
                 <li><a href="" class="btn-primary btn-free" >free trail</a></li>
             </ul>
+            <button class="btn-menu" type="button"><img src="img/open-menu-01-512.png" alt="c"></button>
         </div>
 
             <div class="wrap">
@@ -365,8 +366,35 @@
            </div>
         </div>
 
+        <div class="modal">
+            <ul class="nav-modal">
+                <li><a href="" class="nav-item" >Home</a></li>
+                <li><a href="" class="nav-item">Features</a> </li>
+                <li><a href="" class="nav-item">Video</a></li>
+                <li><a href="" class="nav-item">Screens</a></li>
+                <li><a href="" class="nav-item">Pricing</a></li>
+                <li><a href="" class="nav-item">team</a></li>
+                <li><a href="" class="btn-primary btn-free" >free trail</a></li>
+            </ul>
+        </div>
        
-    
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+
+
+        <script>
+        $(".btn-menu").click(function(){
+               $(".modal").show()
+        })
+
+        $(".btn-close").click(function(){
+               $(".modal").hide()
+        })
+
+
+        </script>
  
 </body>
 </html>       
