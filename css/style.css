@@ -94,6 +94,8 @@ letter-spacing: 3.5px;
     max-width:1110px ;
     
     margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .box-header{
@@ -216,6 +218,8 @@ margin-left: 16px;
                           grid-template-columns: 1fr 1fr 1fr;
                     padding-top: 140px;
                     padding-bottom: 100px;
+                    padding-left: 15px;
+                    padding-right: 15px;
 }
 
 .grid-title{
@@ -488,6 +492,8 @@ letter-spacing: 0px;
 .screen{
 margin-top: 36px;
 margin-bottom: -7px;
+width: 100%;
+max-width:1288px ;
 }
 
 
@@ -607,16 +613,21 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 max-width: 1110px;
 margin: 0 auto;
 align-items: center;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .box-subs{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .box-subs-text{
@@ -1030,10 +1041,15 @@ flex-basis: 47%;
    padding: 5px 0 4px 0;
 
 }
-.footer ul{
-  
+.footer ul li{
+   
     list-style-type: none;
 }
+.footer ul li a{
+    color: #fff;
+    padding: 0px 12px;
+}
+
 
 .footer-flex{
     display: flex;
@@ -1046,7 +1062,68 @@ flex-basis: 47%;
 
  }
 
+ 
+
 .footer p{
     font-size: 16px;
     color: #fff;
  }
+
+
+
+/*media*/
+
+@media (max-width:850px){
+    
+    .page-company{
+        padding: 50px 0 25px;
+    }
+
+    .grid{
+        display:grid;
+        grid-template-areas: "a a "
+                              "b c" 
+                              "d e"
+                              "f g"
+                              "h h" ;
+
+
+                             /* max-width: 1110px;
+                              margin: 0 auto;
+                              grid-gap:35px;
+                              grid-template-columns: 1fr 1fr 1fr;
+                        padding-top: 140px;
+                        padding-bottom: 100px;
+                        padding-left: 15px;
+                        padding-right: 15px;*/
+        grid-template-columns:1fr 1fr ;
+
+    }
+    .grid h2 {
+        
+       text-align: center;
+       margin-top: 0;
+    }
+
+    .grid h2 span {
+        margin-bottom: 10px;
+    }
+
+
+    .box-subs-child{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .box-subs-text{
+        margin: 0 auto 30px;
+    }
+    .box-subs img{
+        margin: 0 auto;
+        max-width: 200px;
+    }
+    .page-subs{
+        padding: 50px 0 65px 0;
+    }
+
+}
